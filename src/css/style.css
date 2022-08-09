@@ -1,0 +1,185 @@
+/* Navbar style */
+.navbox{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-out 0s !important;
+  position: fixed !important;
+  background:#632695;
+  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+}
+
+.navbox p{
+  font-size: 1.2rem !important;
+  text-decoration: none;
+  color: white;
+  padding-right:.8rem;
+}
+
+
+.navbar-toggler {
+	padding: 0.25rem 1.5rem !important;
+	position: relative !important;
+	background-color: transparent !important;
+	border-color: transparent !important;
+}
+
+.navbar-toggler span {
+	display: block !important;
+	float:right;
+	height: 4px !important;
+	width: 27px !important;
+	margin-top: 5px !important;
+	margin-bottom: 5px !important;
+	transform: rotate(0deg) !important;
+	left: 0 !important;
+	opacity: 1 !important;
+	background-color: white !important;
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(1) {
+	position: absolute !important;
+	left: 12px !important;
+	top: 10px !important;
+	transform: rotate(135deg) !important;
+	opacity: 0.9 !important;
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(2) {
+	height: 12px !important;
+	visibility: hidden !important;
+	background-color: transparent !important;
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(3) {
+	position: absolute !important;
+	left: 12px !important;
+	top: 10px !important;
+	transform: rotate(-135deg) !important;
+	opacity: 0.9 !important;
+}
+@media (max-width: 767px) {
+	.navbox {
+		padding: 1rem 2rem !important;
+		font-size: 1.4rem !important;
+		background-color: #632695 !important;
+	}
+	.navbar-nav .nav-item a::after {
+		display: none !important;
+	}
+}
+
+.boxcard {
+  height: 30vw;
+  width: 20rem;
+  cursor: pointer;
+  border-radius:.5rem;
+  outline: .1rem solid #8a2be2;
+  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+}
+
+.educard {
+	height: 10vw;
+	width: 80%;
+	cursor: pointer;
+	border-radius:.5rem;
+	outline: .1rem solid #8a2be2;
+	text-align: left;
+	font-size: large ;
+	margin: 15px !important;
+	padding: 10px !important;
+	vertical-align: middle !important;
+	border-radius: 5px !important;
+	display: table !important;
+	box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+	overflow: hidden !important;
+	transition: all 0.4s ease 0s !important;
+	background: white !important;
+}
+
+.boxcard:hover .educard:hover{
+ outline:.3rem solid #8a2be2;
+ outline-offset: 0rem;
+}
+
+
+.tech-icons {
+	font-size: 4.5em ;
+	margin: 15px !important;
+	padding: 10px !important;
+	outline: .1rem solid #8a2be2;
+	/* border: 1.7px solid rgba(200, 137, 230, 0.637) !important; */
+	vertical-align: middle !important;
+	text-align: center !important;
+	border-radius: 5px !important;
+	display: table !important;
+	box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+	overflow: hidden !important;
+	transition: all 0.4s ease 0s !important;
+	height: auto;
+	width: auto;
+	background: white !important;
+}
+
+.tech-icons > p {
+	font-size: 0.25em !important;
+	margin-bottom: 0px;
+}
+
+.social-icons {
+	display: inline-block !important;
+	width: 30px;
+	height: 30px;
+	padding: 5px;
+	background: #632695 !important;
+	border-radius: 50% !important;
+	transition: 0.5s !important;
+	color:white;
+}
+
+.heading{
+    text-align: center;
+    padding:2rem 0;
+    padding-bottom: 3rem;
+    font-size: 2.5rem;
+    color:var(--black);
+}
+
+.heading span{
+    background: #632695;
+    color:white;
+    display: inline-block;
+    padding:.5rem 3rem;
+    clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
+}
+
+.contact{
+	background-color:white; 
+	border-radius:.5rem;
+	outline: .1rem solid #8a2be2;
+	width:40%; 
+	height:8vw;
+	padding-top:1%;
+	overflow: hidden !important;
+	transition: all 0.4s ease 0s !important;
+	box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+	cursor: pointer;
+	display: table !important;
+}
+
+.projcard{
+	background: white !important;
+	border-radius:.5rem;
+	outline: .1rem solid #8a2be2;
+	overflow: hidden !important;
+	transition: all 0.4s ease 0s !important;
+	box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+	cursor: pointer;
+	display: table !important;
+	text-align: left;
+	font-size: large ;
+	padding: 10px !important;
+	margin-left: 70px !important;
+	margin-right: -70px !important;
+	vertical-align: middle !important;
+}
