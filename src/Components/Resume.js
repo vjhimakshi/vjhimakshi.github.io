@@ -16,6 +16,7 @@ function Resume() {
 		<div>
 			<Container fluid>
 				<Particle />
+				<Row>{width}</Row>
 				<Row className="resume"  style={{ justifyContent: "center", position: "relative" }}>
 					<Card sx={{ maxWidth: 824 }}>
 						<CardMedia
